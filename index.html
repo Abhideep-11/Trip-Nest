@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Nest | Explore India</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <h1>Trip Nest</h1>
+        <p>Your One-Stop Solution to Every Travel Dream.</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#categories">Destinations</a>
+        <a href="#popular">Packages</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <!-- SEARCH SECTION -->
+
+    <section class="search-section">
+
+        <h2>Discover Your Next Adventure</h2>
+
+        <p>Explore beautiful destinations and plan your next unforgettable journey.</p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Where do you want to go?"
+            >
+
+            <button id="search-button">Search</button>
+        </div>
+
+        <p id="search-message" class="search-message"></p>
+
+    </section>
+
+    <!-- CATEGORY SECTION -->
+
+    <section class="categories-section" id="categories">
+
+        <h2>Explore By Category</h2>
+
+        <p>Find the perfect travel experience for yourself.</p>
+
+        <div class="category-grid">
+
+            <div class="category-card" data-category="Mountains">
+                <img src="./Assets/mountains.jpg" alt="Mountains">
+                <h3>Mountains & Hill Stations</h3>
+                <p>Discover beautiful mountain destinations.</p>
+            </div>
+
+            <div class="category-card" data-category="Spiritual">
+                <img src="./Assets/spiritual.jpg" alt="Spiritual destinations">
+                <h3>Spiritual & Pilgrimage</h3>
+                <p>Explore India's sacred places.</p>
+            </div>
+
+            <div class="category-card" data-category="Beaches">
+                <img src="./Assets/beaches.jpg" alt="Beaches">
+                <h3>Beaches & Islands</h3>
+                <p>Enjoy peaceful beaches and blue waters.</p>
+            </div>
+
+            <div class="category-card" data-category="Heritage">
+                <img src="./Assets/heritage.jpg" alt="Heritage">
+                <h3>Heritage & History</h3>
+                <p>Discover India's historical wonders.</p>
+            </div>
+
+            <div class="category-card" data-category="Adventure">
+                <img src="./Assets/adventure.jpg" alt="Adventure">
+                <h3>Adventure & Wildlife</h3>
+                <p>Experience exciting outdoor adventures.</p>
+            </div>
+
+            <div class="category-card" data-category="Family">
+                <img src="./Assets/family.jpg" alt="Family travel">
+                <h3>Family & Weekend Trips</h3>
+                <p>Make beautiful memories with family.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- POPULAR DESTINATIONS -->
+
+    <section class="destinations-section" id="popular">
+
+        <h2>Popular Destinations</h2>
+
+        <p id="destination-description">
+            Discover some of India's favourite destinations.
+        </p>
+
+        <button id="show-all-button" class="show-all-button">
+            Show All Destinations
+        </button>
+
+        <div id="destination-list" class="destination-grid"></div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about-section" id="about">
+
+        <h2>About Trip Nest</h2>
+
+        <p>
+            Trip Nest helps travellers discover beautiful destinations,
+            explore travel experiences and plan memorable journeys across India.
+        </p>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <h3>Trip Nest</h3>
+        <p>Your One-Stop Solution to Every Travel Dream.</p>
+        <p>© 2026 Trip Nest. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="./js/packages.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
